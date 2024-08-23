@@ -4,13 +4,14 @@
 
 ## About Fuel
 Fuel is an operating system specifically designed for Ethereum rollups, helping developers build scalable decentralized economies.
-* [Twitter](https://twitter.com/fuel_network)
+* [Twitter / X](https://twitter.com/fuel_network)
 * [Website](https://fuel.network/)
 * [Discord](https://discord.com/invite/xfpK4Pe)
 * [Docs](https://docs.fuel.network/)
 * [GitHub](https://github.com/FuelLabs)
 * [Explorer](https://app.fuel.network/)
 * [Forum](https://forum.fuel.network/)
+* [Fuel Türkiye](https://x.com/fuelnetworktr)
 
 ## About Fuel Node
 
