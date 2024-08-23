@@ -32,3 +32,14 @@ sudo apt update
 sudo apt upgrade -y
 sudo apt install build-essential -y
 ```
+
+### Rust and Cargo Installation
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source $HOME/.cargo/env
+```
+
+#### Check Rust version:
+```bash
+rustup --version
+```
