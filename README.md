@@ -28,9 +28,8 @@ Running your own Fuel node comes with significant benefits:
 
 ### Update System Packages
 ```bash
-sudo apt update
-sudo apt upgrade -y
-sudo apt install build-essential -y
+sudo apt-get update && sudo apt-get upgrade -y
+sudo apt install wget curl
 ```
 
 ### Rust and Cargo Installation
@@ -42,4 +41,22 @@ source $HOME/.cargo/env
 #### Check Rust version:
 ```bash
 rustup --version
+```
+
+## Step 2: Fuel Toolchain
+
+### Download and Install Fuel 
+```bash
+curl https://install.fuel.network | sh
+source /root/.bashrc
+```
+
+#### You can check Fuelup:
+```bash
+fuelup --version
+```
+
+### Generate the P2P Key
+```bash
+fuel-core-keygen new --key-type peering
 ```
